@@ -43,4 +43,14 @@ public class HomeSteps {
     public void verifyThatProductIsDisplayed() {
         homePage.verifyThatProductIsDisplayed();
     }
+
+    @Then("I add sauce labs onesie product to the cart")
+    public void clickOnItemOne() {
+        homePage.clickOnItemOne();
+    }
+
+    @Then("I verify that product auce labs onesie is displayed")
+    public void verifyThatProductItemOneIsDisplayed() {
+        homePage.verifyThatProductItemOneIsDisplayed();
+    }
 }
